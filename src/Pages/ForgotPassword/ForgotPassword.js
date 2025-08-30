@@ -8,7 +8,7 @@ export default function ForgotPassword() {
     <div className='container mt-5' style={{maxWidth:400}}>
         <Card>
             <Card.Body>
-                <h1 className='mb-3'>Forgot Password</h1>
+                <h1 className='mb-3'>Reset</h1>
                 <Formik>
                     <Form>
                         
@@ -27,7 +27,7 @@ export default function ForgotPassword() {
             </Card.Body>
         </Card>
         <div>
-            Already have an account <Link to='/login'>LogIn</Link>
+            Already have an account <Link to='/login'>Log In</Link>
         </div>
     </div>
   )
