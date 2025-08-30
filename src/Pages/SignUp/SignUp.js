@@ -29,7 +29,7 @@ export default function SignUp() {
     <div className="container mt-5" style={{ maxWidth: 400 }}>
       <Card>
         <Card.Body>
-          <h1 className="mb-3">SignUp</h1>
+          <h1 className="mb-3">Sign Up</h1>
           <Formik
             initialValues={initialValues}
             validationSchema={yupValidation}
@@ -106,7 +106,7 @@ export default function SignUp() {
         </Card.Body>
       </Card>
       <div>
-        Already have an account <Link to="/login">LogIn</Link>
+        Already have an account? <Link to="/login">Log In</Link>
       </div>
     </div>
   );

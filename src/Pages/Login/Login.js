@@ -88,17 +88,17 @@ export default function Login() {
                   type="submit"
                   disabled={loading}
                 >
-                  {loading ? "Logging in..." : "Login"}
+                  {loading ? "Logging in..." : "Log in"}
                 </button>
 
-                <Link to="/forgotpassword">Forgot Password </Link>
+                <Link to="/forgotpassword">Forgot password </Link>
               </Form>
             )}
           </Formik>
         </Card.Body>
       </Card>
       <div>
-        Create an account <Link to="/signup">SignUp</Link>
+        Don't have an account? <Link to="/signup">SignUp</Link>
       </div>
     </div>
   );

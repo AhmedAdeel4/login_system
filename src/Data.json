@@ -96,6 +96,12 @@
       "name": "Youseif",
       "email": "joo@gmail.com",
       "password": "44444"
+    },
+    {
+      "id": "d66f",
+      "name": "new",
+      "email": "new@yahoo.com",
+      "password": "00000"
     }
   ],
   "Product": [
