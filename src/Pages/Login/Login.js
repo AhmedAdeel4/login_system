@@ -91,14 +91,14 @@ export default function Login() {
                   {loading ? "Logging in..." : "Log in"}
                 </button>
 
-                <Link to="/forgotpassword">Forgot password </Link>
+                <Link to="/forgotpassword">Forgot password? </Link>
               </Form>
             )}
           </Formik>
         </Card.Body>
       </Card>
       <div>
-        Don't have an account? <Link to="/signup">SignUp</Link>
+        Don't have an account? <Link to="/signup">Sign Up</Link>
       </div>
     </div>
   );
